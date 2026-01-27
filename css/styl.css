@@ -112,23 +112,26 @@ a.meet {
 }
 .focus-cnt {
     background: #F8F8F8;
-    padding: 47px 33px;
+    padding: 31px 34px;
 }
 .main-point {
     padding-bottom: 23px;
+    margin-bottom: 15px;
 }
-
 .features {
     text-align: center;
 }
+
 .box {
     display: flex;
     gap: 28px;
-   
+    overflow-x: hidden;
+    width: 100%;
+    margin-top: 50px;
 }
 .icon-symbel {
     position: absolute;
-    top: 33%;
+    top: 31%;
     left: 40%;
     background: white;
     height: 38px;
@@ -157,7 +160,7 @@ a.view {
 }
 
 section#features {
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 
@@ -220,4 +223,10 @@ section#features {
 }
 .service-box {
     min-width: 32%;
+}
+
+
+
+.features p{
+    margin-top: 19px;
 }
