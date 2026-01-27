@@ -146,5 +146,11 @@ a.meet {
     border-radius: 15px;
 }
 .service-cnt {
-    padding: 30px;
+    padding: 25px 25px;
+}
+a.view {
+    display: flex;
+    justify-content: center;
+    color: #00A59E;
+    text-decoration: underline;
 }
