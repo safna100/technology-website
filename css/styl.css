@@ -121,3 +121,7 @@ a.meet {
 .features {
     text-align: center;
 }
+.box {
+    display: flex;
+    gap: 28px;
+}
