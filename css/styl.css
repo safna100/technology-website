@@ -146,8 +146,8 @@ a.meet {
 .service-box {
     position: relative;
     background: #F4F4F4;
-    border-radius: 15px;
-    box-shadow: 1px 1px 3px 0px #ababab;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 6px 0px #ababab;
 }
 .service-cnt {
     padding: 25px 25px;
@@ -229,4 +229,24 @@ section#features {
 
 .features p{
     margin-top: 19px;
+}
+
+a.more-bt {
+    background: white;
+    padding: 5px 15px;
+    color: black;
+    border-radius: 4px;
+}
+
+.types {
+    display: flex;
+    gap: 30px;
+}
+.types-cnt-1 {
+    position: absolute;
+    top: 30%;
+    left: 31%;
+}
+.types-of-industries {
+    position: relative;
 }
