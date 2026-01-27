@@ -159,3 +159,65 @@ a.view {
 section#features {
     margin-top: 70px;
 }
+
+
+
+
+.features-cnt {
+    position: relative;
+}
+
+.box {
+    display: flex;
+    gap: 28px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* arrows position */
+.icon {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    background: #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.left-btn {
+    left: -20px;
+}
+
+.right-btn {
+    right: -20px;
+}
+
+
+.features-cnt {
+    position: relative;
+    padding: 0 70px;   /* 🔥 gap for arrows */
+}
+.left-btn {
+    left: 0;
+}
+
+.right-btn {
+    right: 0;
+}
+
+
+.box {
+    display: flex;
+    gap: 28px;
+    overflow-x: hidden;
+    width: 100%;
+}
+.service-box {
+    min-width: 32%;
+}
