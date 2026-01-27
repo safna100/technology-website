@@ -144,6 +144,7 @@ a.meet {
     position: relative;
     background: #F4F4F4;
     border-radius: 15px;
+    box-shadow: 1px 1px 3px 0px #ababab;
 }
 .service-cnt {
     padding: 25px 25px;
@@ -153,4 +154,8 @@ a.view {
     justify-content: center;
     color: #00A59E;
     text-decoration: underline;
+}
+
+section#features {
+    margin-top: 70px;
 }
