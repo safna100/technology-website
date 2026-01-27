@@ -40,3 +40,10 @@ a{
 a.home {
     color: #040404;
 }
+a.cnt-bt {
+    background: #00A59E;
+    padding: 10px 40px;
+    border-radius: 6px;
+    color: white;
+    box-shadow: inset -1px 2px 6px 0px #514f4f;
+}
