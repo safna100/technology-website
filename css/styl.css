@@ -296,3 +296,9 @@ a.more-bt {
     width: 15px;
     border-radius: 30px;
 }
+.advance-points {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
