@@ -85,3 +85,26 @@ a.service-bt {
     color: black;
     box-shadow: inset -1px -1px 7px 0px black;
 }
+
+.dote {
+    border-radius: 52px;
+    background: black;
+    width: 12px;
+    height: 12px;
+}
+
+.points {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dote span{
+    color: #2A2626;
+}
+a.meet {
+    background: #00A59E;
+    color: #ffffff;
+    padding: 5px 19px;
+    box-shadow: inset 1px 0px 4px 0px #5f5d5d;
+    border-radius: 3px;
+}
