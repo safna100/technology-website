@@ -53,3 +53,15 @@ a.cnt-bt {
 .hero {
     position: relative;
 }
+.hero-cnt {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+h1 {
+    color: white;
+}
+.hero-cnt p {
+    color: white;
+    font-size: 18px;
+}
