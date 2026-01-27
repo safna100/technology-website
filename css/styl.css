@@ -28,3 +28,8 @@
     justify-content: space-between;
     align-items: center;
 }
+ul.menue {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
