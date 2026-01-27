@@ -124,4 +124,13 @@ a.meet {
 .box {
     display: flex;
     gap: 28px;
+   
+}
+.icon-symbel {
+    position: absolute;
+    top: 40%;
+    left: 44%;
+}
+.service-box {
+    position: relative;
 }
