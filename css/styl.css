@@ -249,4 +249,25 @@ a.more-bt {
 }
 .types-of-industries {
     position: relative;
+    margin-top: 20px;
+}
+.types-cnt-2 {
+    position: absolute;
+    top: 30%;
+    left: 31%;
+}
+.types-cnt {
+    top: 30%;
+    position: absolute;
+    left: 31%;
+    color: white;
+    text-align: center;
+}
+.types-cnt-1 {
+    color: white;
+    text-align: center;
+}
+.types-cnt-2 {
+    color: white;
+    text-align: center;
 }
