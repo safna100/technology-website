@@ -128,9 +128,23 @@ a.meet {
 }
 .icon-symbel {
     position: absolute;
-    top: 40%;
-    left: 44%;
+    top: 33%;
+    left: 40%;
+    background: white;
+    height: 38px;
+    width: 42px;
+    text-align: center;
+    border-radius: 90px;
+    padding: 4px;
 }
 .service-box {
     position: relative;
+}
+.service-box {
+    position: relative;
+    background: #F4F4F4;
+    border-radius: 15px;
+}
+.service-cnt {
+    padding: 30px;
 }
