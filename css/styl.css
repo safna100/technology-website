@@ -70,7 +70,7 @@ h1 {
 }
 .hero-btns {
     display: flex;
-    gap: 86px;
+    gap: 27px;
 }
 a.free-bt {
     color: white;
