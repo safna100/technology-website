@@ -52,6 +52,7 @@ a.cnt-bt {
 /* hero//// */
 .hero {
     position: relative;
+    margin-bottom: 80px;
 }
 .hero-cnt {
     position: absolute;
@@ -107,4 +108,11 @@ a.meet {
     padding: 5px 19px;
     box-shadow: inset 1px 0px 4px 0px #5f5d5d;
     border-radius: 3px;
+}
+.focus-cnt {
+    background: #F8F8F8;
+    padding: 47px 33px;
+}
+.main-point {
+    padding-bottom: 23px;
 }
