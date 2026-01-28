@@ -305,6 +305,7 @@ a.more-bt {
 
 footer {
     background: rgb(39, 39, 39);
+    margin-top: 70px;
 }
 .first-row h6{
     color: #00A59E;
@@ -380,7 +381,7 @@ body {
 
 .input-field {
     width: 100%;
-    padding: 10px;
+    padding: 2px 3px;
     outline: none;
     border: none;
     font-size: 16px;
@@ -388,7 +389,7 @@ body {
 
 
 .input-container:focus-within {
-    border-color: #007bff;
+    border-color: #0e0e0e;
 }
 
 .subscribe {
@@ -404,4 +405,6 @@ button {
     padding: 5px 25px;
     border-radius: 6px;
     box-shadow: inset 1px 1px 5px 0px black;
+    background-color: #00A59E;
+    color:#fff;
 }
