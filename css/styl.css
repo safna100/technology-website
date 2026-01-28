@@ -408,3 +408,18 @@ button {
     background-color: #00A59E;
     color:#fff;
 }
+hr {
+    color: white;
+    /* height: 26px; */
+    /* width: 36px; */
+}
+.socio-icon {
+    background: #00A59E;
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    padding: 6px;
+}
+.socio-icon i{
+    color: #e5e5e5;
+}
