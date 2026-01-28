@@ -423,6 +423,19 @@ hr {
 .socio-icon i{
     color: #e5e5e5;
 }
-.social-icons span{
-    color: #ffffff;
+.cnts-icons span {
+    color: white;
 }
+.cnts-icons {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    justify-content: center;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left: 70px;
+}
+
