@@ -309,8 +309,9 @@ footer {
 .first-row h6{
     color: #00A59E;
 }
-.first-row p{
+.first-row p {
     color: #ffffff;
+    margin-top: 20px;
 }
 .first-row {
     padding: 43px 1px;
@@ -395,4 +396,12 @@ body {
 }
 .third-row {
     padding: 43px 1px;
+}
+.subscribe h6{
+    color: #00A59E;
+}
+button {
+    padding: 5px 25px;
+    border-radius: 6px;
+    box-shadow: inset 1px 1px 5px 0px black;
 }
