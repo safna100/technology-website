@@ -9,6 +9,11 @@
 }
 @media screen and (max-width:767px) {
    
+    .focus-cnt {
+    background: #F8F8F8;
+    padding: 31px 34px;
+    margin-top: 40px;
+}
 
 
 
