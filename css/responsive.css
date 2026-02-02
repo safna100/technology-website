@@ -78,6 +78,20 @@
     
 }
 
+.icon-symbel {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -25px auto 10px; /* ഇമേജിന് മുകളിലേക്ക് കയറ്റി വെക്കാൻ */
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 2px solid #55e5d1; /* പച്ച ബോർഡർ */
+}
+
 @media screen and (min-width:321px) and (max-width:482px){
    
     

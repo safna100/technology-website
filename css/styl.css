@@ -118,9 +118,370 @@ a.meet {
     padding-bottom: 23px;
     margin-bottom: 15px;
 }
+.features {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    gap: 28px;
+    overflow-x: hidden;
+    width: 100%;
+    margin-top: 50px;
+}
+.icon-symbel {
+    position: absolute;
+    top: 31%;
+    left: 40%;
+    background: white;
+    height: 38px;
+    width: 42px;
+    text-align: center;
+    border-radius: 90px;
+    padding: 4px;
+}
+.service-box {
+    position: relative;
+}
+.service-box {
+    position: relative;
+    background: #F4F4F4;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 6px 0px #ababab;
+}
+.service-cnt {
+    padding: 25px 25px;
+}
+a.view {
+    display: flex;
+    justify-content: center;
+    color: #00A59E;
+    text-decoration: underline;
+}
+
+section#features {
+    margin-top: 80px;
+}
 
 
 
 
+.features-cnt {
+    position: relative;
+}
 
-/* ////////////////// */
+.box {
+    display: flex;
+    gap: 28px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* arrows position */
+.icon {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    background: #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.left-btn {
+    left: -20px;
+}
+
+.right-btn {
+    right: -20px;
+}
+
+
+.features-cnt {
+    position: relative;
+    padding: 0 70px;   /* 🔥 gap for arrows */
+}
+.left-btn {
+    left: 0;
+}
+
+.right-btn {
+    right: 0;
+}
+
+
+.box {
+    display: flex;
+    gap: 28px;
+    overflow-x: hidden;
+    width: 100%;
+}
+.service-box {
+    min-width: 32%;
+}
+
+
+
+.features p{
+    margin-top: 19px;
+}
+
+a.more-bt {
+    background: white;
+    padding: 5px 15px;
+    color: black;
+    border-radius: 4px;
+}
+
+.types {
+    display: flex;
+    gap: 30px;
+    margin-top: 45px;
+}
+.types-cnt-1 {
+    position: absolute;
+    top: 30%;
+    left: 31%;
+}
+.types-of-industries {
+    position: relative;
+    margin-top: 20px;
+}
+.types-cnt-2 {
+    position: absolute;
+    top: 30%;
+    left: 31%;
+}
+.types-cnt {
+    top: 30%;
+    position: absolute;
+    left: 31%;
+    color: white;
+    text-align: center;
+}
+.types-cnt-1 {
+    color: white;
+    text-align: center;
+}
+.types-cnt-2 {
+    color: white;
+    text-align: center;
+}
+
+.types-of-industries img{
+    transition: transform 0.6s ease;
+    transform-origin: center center;
+}
+.types-of-industries img:hover {
+    transform: scale(1.1);
+}
+
+.industries {
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+.advance {
+    margin-top: 70px;
+}
+.point {
+    background: #535353;
+    height: 15px;
+    width: 15px;
+    border-radius: 30px;
+}
+.advance-points {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer {
+    background: rgb(39, 39, 39);
+    margin-top: 70px;
+}
+.first-row h6{
+    color: #00A59E;
+}
+.first-row p {
+    color: #ffffff;
+    margin-top: 20px;
+}
+.first-row {
+    padding: 43px 1px;
+}
+.phone span {
+    color: #ffffff;
+}
+.phone i{
+    color: #00A59E;
+}
+.phone {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.second-row span {
+    color: #ffffff;
+}.second-row h6{
+    color: #00A59E;
+}
+.second-row {
+    color: #ffffff;
+    padding: 43px 1px;
+}
+.third-row h6{
+    color: #00A59E;
+}
+.third-row span{
+    color: white;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.input-container {
+    display: flex;
+    width: 300px;
+    margin-bottom: 15px;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.icon {
+    padding: 10px;
+    color: #555;
+    min-width: 40px;
+    text-align: center;
+}
+
+
+.input-field {
+    width: 100%;
+    padding: 2px 3px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+
+.input-container:focus-within {
+    border-color: #0e0e0e;
+}
+
+.subscribe {
+    padding: 43px 7px;
+}
+.third-row {
+    padding: 43px 1px;
+}
+.subscribe h6{
+    color: #00A59E;
+}
+button {
+    padding: 5px 25px;
+    border-radius: 6px;
+    box-shadow: inset 1px 1px 5px 0px black;
+    background-color: #00A59E;
+    color:#fff;
+}
+hr {
+    color: white;
+    /* height: 26px; */
+    /* width: 36px; */
+}
+.socio-icon {
+    background: #00A59E;
+    width: 36px;
+    height: 36px;
+    border-radius: 20px;
+    padding: 6px;
+}
+.socio-icon i{
+    color: #e5e5e5;
+}
+.cnts-icons span {
+    color: white;
+}
+.cnts-icons {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    justify-content: center;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left: 70px;
+}
+
+/* //////////////// */
+/* പ്രധാന കണ്ടെയ്നർ */
+.features-cnt {
+    display: flex;
+    align-items: center; /* ആരോകൾ കാർഡിന്റെ നടുവിൽ വരാൻ */
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding: 0 50px; /* സൈഡിൽ ആരോകൾക്ക് സ്ഥലം വിടാൻ */
+}
+
+/* സ്ലൈഡർ ആരോകൾ */
+.left-btn, .right-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #e0e0e0; /* ഡിസൈനിലെ ഗ്രേ നിറം */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.left-btn { left: 10px; }
+.right-btn { right: 10px; }
+
+/* കാർഡുകൾ ഇരിക്കുന്ന ബോക്സ് */
+.box {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+    padding: 20px 0;
+}
+
+/* മൊബൈലിൽ വരുമ്പോൾ സ്ക്രോൾ ബാർ ഒളിപ്പിക്കാൻ */
+.box::-webkit-scrollbar {
+    display: none;
+}
+
+
