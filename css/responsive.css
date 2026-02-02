@@ -88,6 +88,8 @@
     justify-content: center;
     margin: -25px auto 10px; /* ഇമേജിന് മുകളിലേക്ക് കയറ്റി വെക്കാൻ */
     position: relative;
+    top: 0%;
+    left: 0%;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     border: 2px solid #55e5d1; /* പച്ച ബോർഡർ */
 }
