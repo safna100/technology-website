@@ -51,6 +51,10 @@
     display: block;
 }
 
+.input-container i, .fa-envelope, .icon {
+    display: block;
+}
+
 
 
    
