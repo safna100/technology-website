@@ -64,7 +64,13 @@
     top: 36%;
     left: 36%;
 }
-
+.types-cnt {
+    top: 36%;
+    position: absolute;
+    left: 36%;
+    color: white;
+    text-align: center;
+}
    
     
 }
