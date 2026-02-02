@@ -105,6 +105,10 @@
     .hamburger.is-active .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
     .hamburger.is-active .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 }
+
+ul.menue {
+    display: none;
+}
 @media screen and (min-width:321px) and (max-width:482px){
    
     
