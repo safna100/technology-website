@@ -22,6 +22,21 @@
     width: 100%;
   }
 
+  .focus-cnt {
+    background: #F8F8F8;
+    padding: 31px 34px;
+    margin-top: 40px;
+  }
+
+  .service-box img {
+    width: 100%;
+  }
+
+  .service-box {
+    min-width: 100%;
+    width: 100%;
+  }
+
 
 
    
