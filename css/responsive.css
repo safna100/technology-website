@@ -54,6 +54,24 @@
 .input-container i, .fa-envelope, .icon {
     display: block;
 }
+.types-cnt-1 {
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 13px;
+}
+.types-cnt-2 {
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 13px;
+}
+.types-cnt-3 {
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 13px;
+}
 
 
 
