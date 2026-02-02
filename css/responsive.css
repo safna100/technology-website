@@ -55,24 +55,10 @@
     display: block;
 }
 .types-cnt-1 {
-    color: white;
-    text-align: center;
-    margin-left: 40px;
-    margin-top: 13px;
+    position: absolute;
+    top: 36%;
+    left: 36%;
 }
-.types-cnt-2 {
-    color: white;
-    text-align: center;
-    margin-left: 40px;
-    margin-top: 13px;
-}
-.types-cnt-3 {
-    color: white;
-    text-align: center;
-    margin-left: 40px;
-    margin-top: 13px;
-}
-
 
 
    
