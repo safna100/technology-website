@@ -17,6 +17,9 @@
 .service-box img {
     width: 100%;
 }
+.service-box {
+    min-width: 100%;
+}
 
 
 
