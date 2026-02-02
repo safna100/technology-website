@@ -47,7 +47,9 @@
     border-radius: 90px;
     padding: 4px;
 }
-
+.input-container i, .fa-envelope, .icon {
+    display: block;
+}
 
 
 
