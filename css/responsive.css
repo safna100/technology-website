@@ -146,6 +146,12 @@ a.cnt-bt {
     margin-bottom: 80px;
     margin-top: 25px;
 }
+@media screen and (min-width: 768px) {
+    .hero-cnt {
+        left: 15% !important; /* !important use cheyyuka conflict avoid cheyyan */
+    }
+}
+
 @media screen and (min-width:321px) and (max-width:482px){
    
     
