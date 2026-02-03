@@ -141,6 +141,11 @@ element.style {
     color: white;
     font-size: 14px;
 }
+.hero {
+    position: relative;
+    margin-bottom: 80px;
+    margin-top: 25px;
+}
 @media screen and (min-width:321px) and (max-width:482px){
    
     
