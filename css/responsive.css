@@ -115,6 +115,10 @@
 .subscribe {
     padding: 20px 0px;
 }
+.cnts-icons span {
+    color: white;
+    font-size: 14px;
+}
 
 @media screen and (min-width:321px) and (max-width:482px){
    
