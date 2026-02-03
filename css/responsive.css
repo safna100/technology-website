@@ -105,6 +105,10 @@
   .service-box {
     min-width: 100%;
   }
+  .second-row {
+    color: #ffffff;
+    padding: 1px;
+}
 
 @media screen and (min-width:321px) and (max-width:482px){
    
