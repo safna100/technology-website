@@ -137,7 +137,10 @@ element.style {
     flex-direction: column;
     gap: 10px;
 }
-
+.hero-cnt p {
+    color: white;
+    font-size: 14px;
+}
 @media screen and (min-width:321px) and (max-width:482px){
    
     
