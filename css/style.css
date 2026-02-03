@@ -74,6 +74,21 @@ a.cnt-bt {
     flex-direction: column;
     gap: 20px;
 }
+/* Desktop default */
+.hero-cnt {
+    position: absolute;
+    top: 20%;
+    left: 7%; /* desktopil proper position */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto; /* instead of 82vh */
+}
+
 h1 {
     color: white;
 }
