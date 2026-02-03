@@ -119,6 +119,12 @@
     color: white;
     font-size: 14px;
 }
+ul.menue {
+    display: none;
+}
+a.cnt-bt {
+    display: none;
+}
 
 @media screen and (min-width:321px) and (max-width:482px){
    
