@@ -334,12 +334,12 @@ footer {
 }
 .phone i{
     color: #00A59E;
-}
-.phone {
+}.phone {
     color: #ffffff;
     display: flex;
     align-items: center;
     gap: 14px;
+    margin-top: 7px;
 }
 .second-row span {
     color: #ffffff;
