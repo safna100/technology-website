@@ -474,7 +474,7 @@
         });
     </script>
 
-
+<!-- 
     <script>
         const box = document.querySelector(".box");
         const leftBtn = document.querySelector(".left-btn");
@@ -489,6 +489,27 @@
         leftBtn.addEventListener("click", () => {
             box.scrollLeft -= scrollAmount;
         });
+    </script> -->
+
+
+
+    <script>
+        const box = document.querySelector(".box");
+const nextBtn = document.querySelector(".right-btn");
+const prevBtn = document.querySelector(".left-btn");
+
+const card = document.querySelector(".service-box");
+
+const gap = 28; // CSS gap value
+
+nextBtn.addEventListener("click", () => {
+  box.scrollLeft += card.offsetWidth + gap;
+});
+
+prevBtn.addEventListener("click", () => {
+  box.scrollLeft -= card.offsetWidth + gap;
+});
+
     </script>
 
 

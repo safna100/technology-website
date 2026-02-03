@@ -220,12 +220,19 @@ section#features {
 }
 
 
-.box {
+/* .box {
     display: flex;
     gap: 28px;
     overflow-x: hidden;
     width: 100%;
+} */
+
+.box {
+  display: flex;
+  gap: 28px;
+  scroll-behavior: smooth;
 }
+
 .service-box {
     min-width: 32%;
 }
@@ -513,4 +520,6 @@ hr {
 .service-box {
   min-width: 32%;
 }
+
+
 
