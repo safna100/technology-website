@@ -485,32 +485,4 @@ hr {
 }
 
 
-/* slider container */
-.features-cnt {
-  position: relative;
-  padding: 0 70px;   /* 🔥 arrows + box gap */
-}
-
-/* arrows */
-.left-btn,
-.right-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.left-btn {
-  left: 10px;
-}
-
-.right-btn {
-  right: 10px;
-}
-
-/* cards wrapper */
-.box {
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  padding: 10px 0;
-}
 
