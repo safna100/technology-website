@@ -94,7 +94,17 @@
     border: 2px solid #55e5d1; /* പച്ച ബോർഡർ */
 }
 
+.left-btn {
+    left: -25px;
+  }
 
+  .right-btn {
+    right: -25px;
+  }
+
+  .service-box {
+    min-width: 100%;
+  }
 
 @media screen and (min-width:321px) and (max-width:482px){
    

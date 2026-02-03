@@ -485,4 +485,31 @@ hr {
 }
 
 
+/* outer wrapper */
+.features-cnt {
+  position: relative;
+  width: 100%;
+}
+
+/* arrows move outside box area */
+.left-btn {
+  left: -60px;   /* 🔥 push outside */
+}
+
+.right-btn {
+  right: -60px;  /* 🔥 push outside */
+}
+
+/* slider cards wrapper */
+.box {
+  display: flex;
+  gap: 28px;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* desktop 3 cards */
+.service-box {
+  min-width: 32%;
+}
 
