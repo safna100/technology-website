@@ -221,7 +221,9 @@ section#features {
 .service-box img{
     width: 100%;
 }
-
+.focus img{
+    width: 100%;
+}
 .box {
     display: flex;
     gap: 28px;
