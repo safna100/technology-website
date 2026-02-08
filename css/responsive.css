@@ -137,6 +137,9 @@ ul.menue {
 .logo {
     padding: 8px;
 }
+.contact-bt {
+    display: none;
+}
    
     
 }
