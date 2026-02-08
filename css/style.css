@@ -241,7 +241,9 @@ section#features {
     right: 0;
 }
 
-
+.header {
+    padding: 10px 0;
+}
 /* .box {
     display: flex;
     gap: 28px;
