@@ -396,13 +396,13 @@ body {
     background-color: white;
 }
 
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
-}
+} */
 .icon {
     padding: 10px;
     color: #555;
