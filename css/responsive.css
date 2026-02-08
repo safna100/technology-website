@@ -97,6 +97,13 @@ ul.menue {
   .hero p {
     font-size: 14px;   /* paragraph */
   }
+  a.free-bt {
+    color: white;
+    background: #00A59E;
+    padding: 8px 18px;
+    border-radius: 3px;
+    box-shadow: inset -1px 1px 10px 0px #e5e5e5;
+}
  
     
 }
