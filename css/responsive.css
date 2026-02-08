@@ -80,6 +80,15 @@
 ul.menue {
     display: none;
 }
+ .hero {
+    height: auto;
+  }
+
+  .hero img {
+    width: 100%;
+    height: 280px;   /* ആവശ്യമെങ്കിൽ change ചെയ്യാം */
+    object-fit: cover;
+  }
  
     
 }
