@@ -215,6 +215,9 @@ section#features {
 .features-cnt {
     position: relative;
 }
+.features h6{
+    text-decoration: underline;
+}
 
 .box {
     display: flex;
