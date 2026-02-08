@@ -103,24 +103,8 @@
   }
 
  
-  
-.subscribe {
-    padding: 20px 0px;
-}
-.cnts-icons span {
-    color: white;
-    font-size: 14px;
-}
-ul.menue {
-    display: none;
-}
-a.cnt-bt {
-    display: none;
-}
-.hero img{
-    width: 100%;
-    height: 82vh;
-}
+
+
 /* .hero-cnt {
     position: absolute;
     top: 20%;
