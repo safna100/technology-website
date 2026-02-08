@@ -65,6 +65,7 @@ a.cnt-bt {
 .hero {
     position: relative;
     margin-bottom: 80px;
+    width: 100%;
 }
 .hero-cnt {
     position: absolute;
