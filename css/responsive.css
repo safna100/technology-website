@@ -74,10 +74,7 @@
 .advance-cnt {
     margin-top: 30px;
 }
-ul.menue {
-    display: none;
-}
-   
+ 
     
 }
 
@@ -140,6 +137,10 @@ ul.menue {
 .contact-bt {
     display: none;
 }
+ul.menue {
+    display: none;
+}
+  
    
     
 }
