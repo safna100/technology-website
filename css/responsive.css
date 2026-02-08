@@ -197,6 +197,15 @@ h1 {
 .third-row {
     padding: 12px 23px;
 }
+.subscribe {
+    padding: 20px 23px;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left: 0px;
+}
 
 
   
