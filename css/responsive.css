@@ -206,6 +206,14 @@ h1 {
     gap: 14px;
     margin-left: 0px;
 }
+a.free-bt {
+    color: white;
+    background: #00A59E;
+    padding: 8px 9px;
+    border-radius: 3px;
+    box-shadow: inset -1px 1px 10px 0px #e5e5e5;
+    font-size: 14px;
+}
 
 
   
