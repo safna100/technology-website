@@ -218,6 +218,9 @@ section#features {
 .features h6{
     text-decoration: underline;
 }
+.service-box img{
+    width: 100%;
+}
 
 .box {
     display: flex;
