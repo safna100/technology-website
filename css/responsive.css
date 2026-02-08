@@ -118,6 +118,14 @@ h1 {
     color: white;
     font-size: 14px;
 }
+.hero-cnt {
+    position: absolute;
+    top: 12%;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
  
     
 }
