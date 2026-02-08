@@ -227,6 +227,10 @@ a.service-bt {
     gap: 3px;
     /* margin-left: 0px; */
 }
+.hero {
+    height: auto;
+    margin-bottom: 50px;
+}
 
   
    
