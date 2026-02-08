@@ -94,6 +94,39 @@ a.cnt-bt {
     flex-direction: column;
     gap: 20px;
 }
+
+/* ///////////////// */
+
+/* HAMBURGER */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 26px;
+  height: 3px;
+  background: #111;
+  transition: 0.3s;
+}
+
+/* ACTIVE TO CLOSE */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+
+
 /* Desktop default */
 .hero-cnt {
     position: absolute;

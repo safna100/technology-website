@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
@@ -22,8 +22,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -36,7 +36,7 @@
                             <img src="img/logo.png" alt="">
                         </div>
 
-                        <ul class="menue">
+                        <ul class="menue" id="navMenu">
                             <li><a class="home" href="home.html">HOME</a></li>
                             <li><a class="home" href="home.html">INDUSTRIES</a></li>
                             <li><a class="home" href="home.html">SERVICE</a></li>
@@ -45,6 +45,14 @@
                         </ul>
                         <div class="contact-bt">
                             <a class="cnt-bt" href="contact.html">CONTACT</a>
+                        </div>
+
+
+                        <!-- Toggle Button -->
+                        <div class="hamburger" id="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
                     </div>
                 </div>
@@ -57,7 +65,8 @@
                         <h1 data-aos="fade-right" data-aos-duration="1200">Revolutionising <br>
                             The Manufacturing <br> Industry
                         </h1>
-                        <p data-aos="fade-right" data-aos-delay="200">Experience the confidence and reliability of working with a professional, leading team of
+                        <p data-aos="fade-right" data-aos-delay="200">Experience the confidence and reliability of
+                            working with a professional, leading team of
                             engineering <br> solution experts in Australia. </p>
 
                         <div class="hero-btns" data-aos="fade-right" data-aos-delay="200">
@@ -482,7 +491,7 @@
         });
     </script>
 
-    
+
     <script>
         AOS.init();
     </script>
@@ -524,6 +533,17 @@
         });
 
     </script>
+    <!-- ////////////////toggle-btn -->
+   <script>
+    const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("navMenu");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+
+   </script>
 
 
 
