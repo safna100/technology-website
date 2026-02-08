@@ -37,6 +37,24 @@ html, body {
 
 .header-cnt {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 60px;
+    width: auto;
+}
+
+
+/* /////////////// */
+.header-cnt {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
