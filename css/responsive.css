@@ -203,6 +203,11 @@ h1 {
     height: 305px;
     object-fit: cover;
 }
+footer {
+    background: rgb(39, 39, 39);
+    margin-top: 70px;
+    padding-bottom: 35px;
+}
 }
 
 
