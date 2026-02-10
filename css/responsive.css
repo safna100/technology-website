@@ -188,6 +188,9 @@ h1 {
     z-index: 999;
     text-align: center;
 }
+.advance-pic img {
+    width: 100%;
+}
 
 }
 
