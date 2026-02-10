@@ -194,7 +194,10 @@ h1 {
 .advance-pic img{
     width: 100%;
 }
-
+.cnts-icons span {
+    color: white;
+    font-size: 12px;
+}s
 }
 
 
