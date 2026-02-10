@@ -197,7 +197,12 @@ h1 {
 .cnts-icons span {
     color: white;
     font-size: 12px;
-}s
+}
+.hero img {
+    width: 100%;
+    height: 305px;
+    object-fit: cover;
+}
 }
 
 
